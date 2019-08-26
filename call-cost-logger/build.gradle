@@ -16,12 +16,27 @@ ext {
     set('springCloudVersion', "Greenwich.SR2")
 }
 
+wrapper {
+    gradleVersion = '5.1'
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+springBoot {
+    mainClassName = 'ninja.goofyahead.callloger.CallLoggerApplication'
+}
+
+task publishDockerImage(type: Exec) {
+    workingDir './'
+    commandLine './scripts/docker_publish.sh'
+}
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.apache.kafka:kafka-streams'
     implementation 'org.springframework.cloud:spring-cloud-stream'
-    implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka-streams'
+    implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka'
     compileOnly 'org.projectlombok:lombok'
+    compile 'se.transmode.gradle:gradle-docker:1.2'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.cloud:spring-cloud-stream-test-support'
