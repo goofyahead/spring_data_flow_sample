@@ -2,134 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681ae05b-db56-4961-9585-64f400f09153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/classes/java/main/ninja/goofyahead/callloger/CallLoggerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/classes/java/main/ninja/goofyahead/callloger/models/CallCost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/classes/java/main/ninja/goofyahead/callloger/sink/CallCostLogger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/classes/java/test/ninja/goofyahead/callloger/CallCostLoggerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/libs/call-cost-logger-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/classes/ninja.goofyahead.callloger.CallCostLoggerTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/reports/tests/test/packages/ninja.goofyahead.callloger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/test-results/test/TEST-ninja.goofyahead.callloger.CallCostLoggerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/production/classes/META-INF/call-cost-logger.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/production/classes/ninja/goofyahead/callloger/CallLoggerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/production/classes/ninja/goofyahead/callloger/sink/CallCostLogger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/production/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/test/classes/META-INF/call-cost-logger.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/out/test/classes/ninja/goofyahead/callloger/CallCostLoggerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/scripts/docker_publish.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/CallLoggerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/classes/java/main/ninja/goofyahead/callloger/CallProcessorApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/classes/java/main/ninja/goofyahead/callloger/models/Call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/classes/java/main/ninja/goofyahead/callloger/models/CallCost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/classes/java/main/ninja/goofyahead/callloger/processor/CallCostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/classes/java/test/ninja/goofyahead/callloger/processor/CallCostProcessorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/libs/call-cost-processor-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/classes/ninja.goofyahead.callloger.processor.CallCostProcessorTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/reports/tests/test/packages/ninja.goofyahead.callloger.processor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/test-results/test/TEST-ninja.goofyahead.callloger.processor.CallCostProcessorTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/out/production/classes/META-INF/call-cost-processor.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/out/production/classes/ninja/goofyahead/callloger/CallProcessorApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/out/production/classes/ninja/goofyahead/callloger/models/CallCost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/out/production/classes/ninja/goofyahead/callloger/processor/CallCostProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/out/test/classes/META-INF/call-cost-processor.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/scripts/docker_publish.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/CallProcessorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/classes/java/main/ninja/goofyahead/callloger/CallGeneratorApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/classes/java/main/ninja/goofyahead/callloger/models/Call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/classes/java/main/ninja/goofyahead/callloger/source/CallGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/classes/java/test/ninja/goofyahead/callloger/CallGeneratorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/libs/call-producer-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/classes/ninja.goofyahead.callloger.CallGeneratorTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/reports/tests/test/packages/ninja.goofyahead.callloger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/test-results/test/TEST-ninja.goofyahead.callloger.CallGeneratorTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/out/production/classes/ninja/goofyahead/callloger/CallGeneratorApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/out/production/classes/ninja/goofyahead/callloger/models/Call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/out/production/classes/ninja/goofyahead/callloger/source/CallGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/scripts/docker_publish.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/CallGeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/configs/CustomHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-logger/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/out/production/classes/main/CallCostLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/out/production/classes/main/models/CallCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/out/production/classes/ninja/goofyahead/callloger/models/CallCost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/out/test/classes/main/CallCostLoggerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/src/main/java/main/CallCostLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/src/main/java/main/models/CallCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/models/CallCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-logger/src/test/java/main/CallCostLoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/src/test/java/ninja/goofyahead/callloger/CallCostLoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/call-cost-logger/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-logger/out/production/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/call-cost-processor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/out/production/classes/main/CallCostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/out/production/classes/main/models/Call.class" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/out/production/classes/ninja/goofyahead/callloger/models/Call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/out/production/classes/main/models/CallCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/out/test/classes/main/CallCostProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/out/test/classes/main/processor/CallCostProcessorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/src/main/java/main/CallCostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/processor/CallCostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/src/main/java/main/models/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/models/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/src/main/java/main/models/CallCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/models/CallCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-cost-processor/src/test/java/main/CallCostProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-cost-processor/src/test/java/ninja/goofyahead/callloger/processor/CallCostProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/call-producer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/out/production/classes/main/CallGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/out/production/classes/main/models/Call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/src/main/java/main/CallGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/source/CallGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/src/main/java/main/models/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/models/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/call-producer/src/test/java/main/CallGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/call-producer/src/test/java/ninja/goofyahead/callloger/CallGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/callspublisher/target/" />
@@ -170,199 +64,89 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4381658">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/call-cost-processor/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="79" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="79" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-processor/scripts/docker_publish.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/scripts/docker_publish.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/scripts/docker_publish.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-processor/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/CallGeneratorApplication.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#342#343#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/src/main/resources/application.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/source/CallGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-producer/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#263#264#0" expanded="true" />
-                    <element signature="e#318#319#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/src/test/java/ninja/goofyahead/callloger/CallCostLoggerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1192#1193#0" expanded="true" />
-                    <element signature="e#1239#1240#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar!/ch/qos/logback/core/Appender.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-processor/src/test/java/ninja/goofyahead/callloger/processor/CallCostProcessorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/21c84cdf9da108216b5e402611d4af479b60cb8/slf4j-api-1.7.26-sources.jar!/org/slf4j/Logger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1050">
-                  <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/resources/application.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/models/CallCost.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/processor/CallCostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-logger/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-processor/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/call-producer/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream/2.1.3.RELEASE/4f1a4acdd49139ecab85cc1952c3db2af52fd34d/spring-cloud-stream-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/stream/annotation/EnableBinding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/CallLoggerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -398,7 +182,6 @@
         <option value="$PROJECT_DIR$/call-cost-processor/src/main/java/main/models/Call.java" />
         <option value="$PROJECT_DIR$/call-cost-processor/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/call-cost-logger/src/main/java/main/CallCostLogger.java" />
-        <option value="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/call-cost-logger/src/main/java/main/models/CallCost.java" />
         <option value="$PROJECT_DIR$/call-cost-processor/src/test/java/main/CallCostProcessorTest.java" />
         <option value="$PROJECT_DIR$/call-cost-logger/src/test/java/main/CallCostLoggerTest.java" />
@@ -414,17 +197,21 @@
         <option value="$PROJECT_DIR$/call-cost-processor/scripts/docker_publish.sh" />
         <option value="$PROJECT_DIR$/call-producer/scripts/docker_publish.sh" />
         <option value="$PROJECT_DIR$/call-cost-logger/src/test/java/ninja/goofyahead/callloger/CallCostLoggerTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/configs/CustomHealthIndicator.java" />
         <option value="$PROJECT_DIR$/call-cost-logger/build.gradle" />
+        <option value="$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java" />
         <option value="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/call-cost-processor/build.gradle" />
         <option value="$PROJECT_DIR$/call-producer/build.gradle" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="2048" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -432,7 +219,151 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="callloger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="callloger" type="462c0819:PsiDirectoryNode" />
+              <item name="sink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-logger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="callloger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="callloger" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-cost-processor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="call-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="call-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="call-producer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="call-cost-processor" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -471,31 +402,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="call-producer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="call-cost-processor" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/call-producer/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/call-cost-logger/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -521,11 +441,11 @@
       <recent name="main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/call-cost-logger/src/main/resources" />
       <recent name="$PROJECT_DIR$/call-producer/scripts" />
       <recent name="$PROJECT_DIR$/call-cost-processor/scripts" />
       <recent name="$PROJECT_DIR$/call-producer" />
       <recent name="$PROJECT_DIR$/call-cost-processor" />
-      <recent name="$PROJECT_DIR$/call-cost-logger/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.models" />
@@ -553,8 +473,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.11124498" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CallGeneratorApplication">
+  <component name="RunManager" selected="Spring Boot.CallLoggerApplication">
     <configuration name="CallCostLoggerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="call-cost-logger.test" />
       <extension name="coverage">
@@ -600,19 +521,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="call-producer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ninja.goofyahead.callloger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ninja.goofyahead.callloger.CallGeneratorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CallLoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="call-cost-logger.main" />
       <extension name="coverage">
@@ -633,16 +541,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallspublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="callspublisher" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ninja.goofyahead.callspublisher.CallspublisherApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CallGeneratorApplication" />
         <item itemvalue="Spring Boot.CallLoggerApplication" />
         <item itemvalue="JUnit.CallCostLoggerTest (1)" />
         <item itemvalue="JUnit.CallCostProcessorTest" />
@@ -660,7 +560,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566380854306</updated>
-      <workItem from="1566380855569" duration="19564000" />
+      <workItem from="1566380855569" duration="22937000" />
+      <workItem from="1566899409584" duration="182000" />
+      <workItem from="1566900572578" duration="2063000" />
     </task>
     <servers />
   </component>
@@ -697,28 +599,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19564000" />
+    <option name="totallyTimeSpent" value="25182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14257348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14336775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.329927" />
-      <window_info anchor="bottom" id="Build" weight="0.30583942" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
@@ -726,17 +619,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.30583942" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3109489" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,26 +678,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-producer/src/test/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/call-producer/src/test/resources/application.yml" />
     <entry file="file://$USER_HOME$/Downloads/usage-detail-sender-kafka/src/test/java/io/spring/dataflow/sample/usagedetailsender/UsageDetailSenderKafkaApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-producer/src/test/java/CallGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/call-producer/src/test/java/CallGeneratorTest.java" />
     <entry file="file://$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/models/Call.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -819,71 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" selection-start-column="58" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/call-producer/src/test/java/ninja/goofyahead/callloger/CallGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/models/CallCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/21c84cdf9da108216b5e402611d4af479b60cb8/slf4j-api-1.7.26-sources.jar!/org/slf4j/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar!/ch/qos/logback/core/Appender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/CallLoggerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/CallProcessorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/processor/CallCostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -908,29 +735,10 @@
     <entry file="file://$PROJECT_DIR$/call-producer/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-producer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/call-producer/src/main/java/ninja/goofyahead/callloger/source/CallGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,6 +763,23 @@
     <entry file="file://$PROJECT_DIR$/call-cost-processor/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/configs/CustomHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.1.7.RELEASE/524ffb464ca168e448a5bae423159514aab38346/spring-boot-actuator-2.1.7.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/call-cost-processor/scripts/docker_publish.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -969,15 +794,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/call-producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/call-cost-logger/src/test/java/ninja/goofyahead/callloger/CallCostLoggerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="345">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar!/ch/qos/logback/core/Appender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -991,45 +835,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/21c84cdf9da108216b5e402611d4af479b60cb8/slf4j-api-1.7.26-sources.jar!/org/slf4j/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-end-column="56" />
+        <state relative-caret-position="1050">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/call-cost-logger/build.gradle">
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/models/CallCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="79" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/CallProcessorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-processor/call-cost-processor.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-processor/src/main/java/ninja/goofyahead/callloger/processor/CallCostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream/2.1.3.RELEASE/4f1a4acdd49139ecab85cc1952c3db2af52fd34d/spring-cloud-stream-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/stream/annotation/EnableBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/sink/CallCostLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/java/ninja/goofyahead/callloger/CallLoggerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/call-cost-logger/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/call-cost-processor/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="79" />
+        <state relative-caret-position="510">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/call-producer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="510">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
         </state>
       </provider>
     </entry>
