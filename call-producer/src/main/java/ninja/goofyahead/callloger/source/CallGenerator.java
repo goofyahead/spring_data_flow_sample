@@ -23,8 +23,8 @@ public class CallGenerator {
 
     private Logger logger = LoggerFactory.getLogger(CallGenerator.class);
 
-    private String[] users = {"Alex", "Manu", "Juanjo", "Lucia", "Kike", "Marta", "Helena", "Kim", "Pablo"};
-    private String[] countries = {"Spain", "Uae", "Colombia"};
+    private String[] users = {"Alex", "Manu", "Juanjo", "Lucia", "Kike", "Marta", "Helena", "Kim", "Pablo", "Albert", "Maria", "Edgar", "Alicia", "Isa", "Olbin"};
+    private String[] countries = {"Spain", "UAE", "Colombia", "Catalunya", "France", "Ireland"};
 
 
     @Scheduled(fixedDelay = 1000)

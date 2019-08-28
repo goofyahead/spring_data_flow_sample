@@ -24,6 +24,12 @@ docker build . --tag name:version
 docker run name:version
 ```
 
+#### Check messages on kafka topics
+
+```
+/bin# kafka-console-consumer --topic call-detail --bootstrap-server localhost:9092
+```
+
 ### Running on AWS/EKS
 
 #### Cheat sheets
