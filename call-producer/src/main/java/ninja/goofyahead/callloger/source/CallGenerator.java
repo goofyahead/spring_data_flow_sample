@@ -1,6 +1,8 @@
 package ninja.goofyahead.callloger.source;
 
 import ninja.goofyahead.callloger.models.Call;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
@@ -19,12 +21,15 @@ public class CallGenerator {
     @Autowired
     private Source source;
 
+    private Logger logger = LoggerFactory.getLogger(CallGenerator.class);
+
     private String[] users = {"Alex", "Manu", "Juanjo", "Lucia", "Kike", "Marta", "Helena", "Kim", "Pablo"};
     private String[] countries = {"Spain", "Uae", "Colombia"};
 
 
     @Scheduled(fixedDelay = 1000)
     public void sendEvents() {
+        logger.debug("sending event of new call.");
         Call generatedCall = new Call(
                 this.users[new Random().nextInt(this.users.length)],
                 this.users[new Random().nextInt(this.users.length)],
